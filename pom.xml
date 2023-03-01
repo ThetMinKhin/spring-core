@@ -10,6 +10,9 @@
     <packaging>pom</packaging>
     <modules>
         <module>sample-di</module>
+        <module>person-di</module>
+        <module>bean-scoped</module>
+        <module>altering-behaviour</module>
     </modules>
 
     <properties>

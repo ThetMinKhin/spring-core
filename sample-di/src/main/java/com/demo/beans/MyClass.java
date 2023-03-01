@@ -1,2 +1,4 @@
-package com.demo.beans;public class MyClass {
+package com.demo.beans;
+
+public class MyClass {
 }

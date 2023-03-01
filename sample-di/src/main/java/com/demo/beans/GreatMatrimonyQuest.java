@@ -1,2 +1,14 @@
-package com.demo.beans;public class GreatMatrimonyQuest {
+package com.demo.beans;
+
+import org.springframework.context.annotation.Primary;
+import org.springframework.stereotype.Component;
+@Primary
+
+@Component("matrimony")//@QuestType(type = QuestType.Type.Matrimony)
+public class GreatMatrimonyQuest implements Quest {
+
+    @Override
+    public String goQuest() {
+        return "Knight and Princess performs the great matrimony! ";
+    }
 }

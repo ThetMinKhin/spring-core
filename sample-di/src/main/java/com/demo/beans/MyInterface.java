@@ -1,2 +1,4 @@
-package com.demo.beans;public interface MyInterface {
+package com.demo.beans;
+
+public interface MyInterface {
 }

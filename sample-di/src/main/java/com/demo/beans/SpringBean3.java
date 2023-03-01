@@ -1,2 +1,21 @@
-package com.demo.beans;public class SpringBean3 {
+package com.demo.beans;
+
+import org.springframework.core.Ordered;
+import org.springframework.core.annotation.Order;
+import org.springframework.stereotype.Component;
+
+@Component
+public class SpringBean3 implements MyInterface, Ordered {
+    public SpringBean3(){
+        //System.out.println("SpringBean3");
+    }
+
+    @Override
+    public int getOrder() {
+        return 1;
+    }
+
+    public String toString(){
+        return "Spring Bean 3";
+    }
 }
